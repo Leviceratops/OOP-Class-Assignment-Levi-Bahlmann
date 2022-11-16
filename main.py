@@ -1,7 +1,7 @@
 from threeDShape import ShapethreeD
 from cube import Cube
 from icosahedron import Icosahedron
-
+# https://www.asciiart.eu/art-and-design/geometries - CREDIT FOR ASCII ART
 # test shape / base class
 new_shape = ShapethreeD("test", "black", [])
 
@@ -38,4 +38,3 @@ print("The edge length of this icosahedron is %.3f units." % ic.get_edge())
 print(ic.set_point([7 ,21 ,11]))
 print(ic.get_point())
 ic.draw()
-# add in draw function ASCII
